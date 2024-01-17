@@ -16,13 +16,13 @@ body {
     text-align: center;
     max-width: 400px;
     width: 80%;
-    margin: 20px auto; /* Center the converter div */
-    flex: 1; /* Allow the converter div to take up remaining space */
+    margin: 20px auto;
+    flex: 1; 
     transition: background-color 0.3s ease;
   }
   
   .converter:hover {
-    background-color: #333; /* Change background color on hover */
+    background-color: #333;
   }
   
   .input-container {
@@ -100,8 +100,6 @@ body {
     text-align: center;
   }
   
-  /* Responsive Styles */
-  
   @media screen and (max-width: 600px) {
     .converter {
       width: 90%;
@@ -129,7 +127,7 @@ body {
   }
   
   h1:hover {
-    color: #45a049; /* Change text color on hover */
-    transition: color 0.3s ease; /* Smooth transition effect */
+    color: #45a049; 
+    transition: color 0.3s ease;
   }
   
