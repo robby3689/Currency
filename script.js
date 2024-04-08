@@ -1,7 +1,13 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Fetch and populate currency dropdowns
     fetchCurrencies();
-  
+//  git init
+//  git add .
+//  git commit -am "New Feature"
+//  git remote add origin http s://github.com/robby3689/MyPortfolio.git
+//  git push origin master
+
+
     // Set default values for currencies
     document.getElementById('fromCurrency').value = 'INR';
     document.getElementById('toCurrency').value = 'INR';
